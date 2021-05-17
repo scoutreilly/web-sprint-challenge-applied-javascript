@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const Card = (article) => {
   // TASK 5
   // ---------------------
@@ -39,7 +41,7 @@ const Card = (article) => {
   pageCard.appendChild(name);
 
   pageCard.addEventListener('click', function(event) {
-    console.log(article.headline);
+    console.log(article.headline, event);
   });
   return pageCard
 }

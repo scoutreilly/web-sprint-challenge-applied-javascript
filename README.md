@@ -76,7 +76,12 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+- Document Object Model. It is the interface we can see the backend js and frontend html communcate. We can also maunipulate the elements here.
 2. What is an event?
+- When html changes, clicks, scroll and things happenening, it triggers an event.
 3. What is an event listener?
+- Event listeners listen for the trigger from the event happening. Event listeners are run code on the trigger of that event happening.
 4. Why would we convert a NodeList into an Array?
+- Arrays are easier to manipulate with javascript. Nodelists contain dom elements, arrays hold data.
 5. What is a component?
+- It is similar to a function. This function will use javascript to create html or react elements.
