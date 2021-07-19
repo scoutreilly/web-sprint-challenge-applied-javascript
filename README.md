@@ -76,7 +76,12 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+-- The dom is a user interface and representation of the html and javascript loading on a webpage.
 2. What is an event?
+-- An event is simply a thing that happens to the html document.
 3. What is an event listener?
+-- An event listener, listens to those event and acts on them
 4. Why would we convert a NodeList into an Array?
+-- You can't run javascript functions on a Nodelist, but you can run them on an array. For example forEach, .map and .filter.
 5. What is a component?
+-- A component is a builder function. It builds html elements with javascript and/or react.
